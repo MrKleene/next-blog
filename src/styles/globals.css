@@ -1,0 +1,27 @@
+:root {
+  --fontC-1: #252933;
+  --fontC-2:#515767;
+  --fontC-3:#8a919f;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #f2f3f5;
+  font-size: 14px;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
