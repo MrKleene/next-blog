@@ -1,6 +1,6 @@
 
 import styles from "@/styles/home.module.css"
-import Header from './header'
+import Header from '../components/header'
 import SidebarLeft from './sidebarLeft'
 import SidebarRight from './sidebarRight'
 import Article from './article'
@@ -8,7 +8,7 @@ const home = () =>{
     return (
         <div>
             <Header />
-            <div className={styles.content}>
+            <div className={styles.home_content}>
                 <SidebarLeft />
                 <Article />
                 <SidebarRight />

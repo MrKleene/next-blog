@@ -11,7 +11,7 @@ const sidebarLeft = () =>{
     }
 
     return (
-        <div className={styles.sidebarLeft}>
+        <div className={styles.detail_sidebarLeft}>
             {
                 tabList.map((item,index)=>{
                     return <a href="/#" 

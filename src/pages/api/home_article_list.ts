@@ -1,11 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-type Data<T = any> = {
-  code:number,
-  data:T,
-  msg:string
-}
 
 export default function handler(
   req: NextApiRequest,
